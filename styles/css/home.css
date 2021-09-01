@@ -2,6 +2,7 @@
 
 a{
     color: black;
+    text-decoration: none;
 }
 
 .pink-text{
@@ -11,9 +12,24 @@ a{
 .grey-text{
     color: #999999;
 }
+
+hr{
+    color: rgba(0,0,0,0.150000006);
+    width: 86.8%;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Media-queries */
 
 @media only screen and (max-width: 400px) {
+
+    hr{
+        color: rgba(0,0,0,0.150000006);
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #head-quote{
         width: 300px;
         font-size: 12px;
@@ -46,6 +62,10 @@ a{
     #about-text{
         width: 80%;
         margin-top: 60px;
+    }
+
+    .card{
+        max-width: 80%;
     }
 }
 
@@ -93,8 +113,28 @@ main{
     max-width: 745px;
 }
 
-hr{
-    color: rgba(0,0,0,0.150000006);
-    margin-bottom: 100px;
-    width: 80%;
+/* Projects Section */
+
+#projects-section{
+    margin-top: 100px;
+}
+
+/* Footer-Styles */
+
+#left-row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#mid-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#right-row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }

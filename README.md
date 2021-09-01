@@ -97,3 +97,41 @@ Github Link: https://mahmud-shukhon.github.io/Proma_Portfolio/pages/index.html
     align-items: center;
     padding-left: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+<div class="d-flex justify-content-around">
+          <div>
+            <a href="">Sheikh Ahsan Ullah Mojumder</a>
+          </div>
+
+          <div>
+            <a href="">Tahajibul Hossain</a>
+          </div>
+
+          <div>
+            <a href="">Brishti Majumder</a>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-around">
+          <div>
+            <a href="">Nesfun Nahar</a>
+          </div>
+
+          <div>
+            <a href="">Maherul Kader Prince </a>
+          </div>
+
+          <div>
+            <a href="">Rafia Rukhsat</a>
+          </div>
+        </div>
