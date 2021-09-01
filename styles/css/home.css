@@ -1,5 +1,16 @@
 /* Universal Styles */
 
+a{
+    color: black;
+}
+
+.pink-text{
+    color: #d31399;
+}
+
+.grey-text{
+    color: #999999;
+}
 /* Media-queries */
 
 @media only screen and (max-width: 400px) {
@@ -19,6 +30,22 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    #aboutme-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #aboutme-section img{
+        width: 335px;
+        height: 335px;
+    }
+
+    #about-text{
+        width: 80%;
+        margin-top: 60px;
     }
 }
 
@@ -45,4 +72,29 @@ header{
 #head-quote h6{
     display: flex;
     justify-content: flex-end;
+}
+
+/* Main Styles */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Aboutme Section */
+
+#aboutme-section img{
+    max-width: 365px;
+    max-height: 365px;
+}
+
+#about-text{
+    max-width: 745px;
+}
+
+hr{
+    color: rgba(0,0,0,0.150000006);
+    margin-bottom: 100px;
+    width: 80%;
 }
