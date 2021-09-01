@@ -67,6 +67,10 @@ hr{
     .card{
         max-width: 80%;
     }
+
+    .mycard{
+        max-height: 200px;
+    }
 }
 
 /* Header Styles */
