@@ -1,5 +1,10 @@
 /* Nav Styles */
 
+/* Hover-Effects */
+header nav ul li a:hover{
+    color: #d31399;
+}
+
 #my-navbar{
     display: flex;
     align-items: center;
