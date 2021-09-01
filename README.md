@@ -2,6 +2,8 @@
 
 Model Site: https://sites.google.com/view/1901004mohika-proma-sikder/home
 
+Github Link: https://mahmud-shukhon.github.io/Proma_Portfolio/index.html
+
 <nav class="navbar navbar-light bg-black">
             <div id="navbar-name" class="container m-0">
               <a class="navbar-brand" href="#">
