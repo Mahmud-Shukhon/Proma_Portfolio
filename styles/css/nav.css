@@ -1,0 +1,44 @@
+/* Nav Styles */
+
+#my-navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#navibrand img{
+    height: 40px;
+    width: auto;
+}
+
+#navibrand h3{
+    font-size: 21px;
+}
+
+/* Media-Queries */
+
+@media only screen and (max-width: 400px){
+    
+    #my-navbar{
+        min-height: 48px;
+    }
+
+    #navibrand{
+        min-height: 48px;
+        width: 282px;
+        margin-right: 0;
+        
+    }
+
+    #navibrand img{
+        height: 28px;
+        width: auto;
+        margin-left: 0;
+    }
+
+    #navibrand h3{
+        font-size: 18px;
+        width: 252px;
+    }
+}

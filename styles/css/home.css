@@ -1,0 +1,48 @@
+/* Universal Styles */
+
+/* Media-queries */
+
+@media only screen and (max-width: 400px) {
+    #head-quote{
+        width: 300px;
+        font-size: 12px;
+    }
+
+    #head-quote div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #head-quote div p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Header Styles */
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Top Section */
+
+#top-section{
+    display: flex;
+    flex-direction: column;
+}
+
+#head-quote{
+    display: flex;
+    justify-content: center;
+    color: #999999;
+}
+
+#head-quote h6{
+    display: flex;
+    justify-content: flex-end;
+}
